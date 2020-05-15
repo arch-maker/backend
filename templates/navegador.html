@@ -5,12 +5,22 @@
     <meta charset="UTF-8">
     <title>{% block title %}Homepage web app{% endblock title %}</title>
 
-    {% block css %}<link rel="stylesheet" type="text/css" href="/static/css/nav.css">{% endblock css %}
+    <link rel="stylesheet" type="text/css" href="/static/css/nav.css">
+
+    {% block css %}
+    {% endblock css %}
+
 </head>
 <body>
 
+    {% block img %}
+    {% endblock img %}
+
     {% block content %}
     {% endblock content %}
+
+    {% block js %}
+    {% endblock js %}
 
     <div id="navegador">
         <ul>
